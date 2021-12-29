@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Survey Form</title>
+</head>
+<body>
+        <h1 class="heading">Survey Form</h1>
+        <h2 class="heading-2">Thank you for taking time to help us improve the platform</h2>
+<div class="container">
+    <div class="form">
+        <label class="enter" for="name">Name:</label>
+        <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name" required>
+    </div>
+    <div class="form">
+        <label class="enter" for="email">Email:</label>
+        <input type="email" name="email" id="email" class="form-control" placeholder="Enter your Email" required>
+    </div>
+    <div class="form">
+        <label class="enter" for="name">Skills:</label>
+        <input type="text" name="name" id="name" class="form-control" placeholder="Enter your skill(s)" required>
+    </div>
+    <div class="form-group">
+        <div>
+        <p>Gender:</p>
+        <div>
+        <label class="label">
+            <input type="checkbox" value="Male" name="prefer" class="input-checkbox" >Male</label>
+        </label>
+        </div>
+        <div>
+        <label class="label">
+            <input type="checkbox" value="Female" name="prefer" class="input-checkbox" >Female</label>
+        </label>
+        </div>
+        </div>
+        <hr>
+        <p>Age:</p>
+        <div>
+        <label class="label">
+            <input type="radio" value="11-40" name="user-recommend" class="input-radio" >11-40</label>
+        </label>
+        </div>
+        <div>
+        <label class="label">
+            <input type="radio" value="41-70" name="user-recommend" class="input-radio" >41-70</label>
+        </label>
+        </div>
+        <div>
+        <label class="label">
+            <input type="radio" value="71-100" name="user-recommend" class="input-radio" >71-100</label>
+        </label>
+        </div>
+        <hr>
+        <div class="form">
+            <p>Any comments or suggestions?</p>
+            <textarea name="comment" id="comments" class="input-textarea" placeholder="Enter your comments here..." ></textarea>
+        </div>
+        <div class="form">
+            <button type="submit" id="submit" class="submit-button">
+              Submit
+            </button>
+    </div>
+
+</div>
+    
+</body>
+</html>
